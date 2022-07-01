@@ -1,7 +1,7 @@
 import { useState } from 'react';
  
 export const useForm = ( initialState ) => {
-    console.log("jkdsoj",initialState);
+    
     const [formValue, setValues] = useState(initialState);
     
     const reset = (para) => {

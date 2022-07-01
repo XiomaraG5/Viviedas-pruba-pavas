@@ -58,7 +58,6 @@ const HouseList = ({setSwitcher,handleShow}) => {
     }
 
     useEffect(()=>{getViviendas()},[show])
-            console.log('viviendaaaas',houses);
     
   return (
     <div className='d-flex justify-content-center w-100 flex-column'>
