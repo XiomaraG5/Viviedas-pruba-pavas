@@ -5,9 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* background-image: url('./assests/imgs/bg.png');
+    background-size: cover; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cards{
+  box-shadow: 0.5px 0.5px 0.5px 1px #80a3d17a;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.for{
+  box-shadow: 0.5px 0.5px 0.5px 1px #80a3d17a;
+}
+.btns{
+  border: none;
+  background-color: #0d0d0d;
+  border-radius: 5px;
+  padding: 3px 20px 3px 20px;
+  color: whitesmoke;
+  box-shadow: 1px 1px 1px 2px #9999997a;
+}
+.btn{
+  color:whitesmoke;
+  background-color: #0d0d0d;
+}
+.btn:hover{
+  color: wheat;
+  text-decoration: underline;
+  background-color: #0d0d0d;
+}
+.link{
+  color: rgb(84, 181, 226);
+  border: none;
+  background-color: transparent;
+}
+.link:hover{
+  color: blue;
+  text-decoration: underline;
 }
